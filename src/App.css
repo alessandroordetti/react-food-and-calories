@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: lightblue;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'sans-serif';
+}
+
+.recipe{
+  width: calc(100% / 3);
+}
+
+.recipe img{
+  border-radius: 50%;
+}
+
+form {
+  padding: 1.5rem;
+}
