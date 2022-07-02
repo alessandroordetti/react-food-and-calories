@@ -44,11 +44,14 @@ const App = () => {
         <button type='submit'>Search</button>
       </form>
 
-      {recipes.map(recipe => (
-        <Recipe key={recipe.recipe.label} title={recipe.recipe.label} calories={recipe.recipe.calories} image={recipe.recipe.image}/>
-      ))}
+      <div className='cards'>
+        {recipes.map(recipe => (
+          <Recipe key={recipe.recipe.label} title={recipe.recipe.label} calories={recipe.recipe.calories} image={recipe.recipe.image}/>
+        ))}
+      </div>
     </div>
   );
 }
 
 export default App;
+
